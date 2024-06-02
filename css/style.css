@@ -1,0 +1,925 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 430px;
+    height: 100vh;
+    overflow: auto;
+    margin: 0 auto;
+    background-color: rgba(224, 222, 222, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    top: 2%;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* login*/
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+form {
+    margin: 40px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-group input[type="text"] {
+    width: 110%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+button[type="submit"] {
+    display: block;
+    width: 150px;
+    margin: 10px auto 0;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+.btn {
+    display: block;
+    width: 20%;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    margin-top: auto;
+}
+.login-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.login-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.signup-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+.signup-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4;
+    color: white;
+}
+.google-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.btn {
+    display: block;
+    width: 80%;
+    padding: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin: 12px auto;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none; 
+}
+.login-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    margin-top: 200px;
+    padding: 5px;
+}
+.login-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.signup-btn {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 5px;
+}
+.signup-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4;
+    color: white;
+}
+.google-btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.google-logo {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+.logo img {
+    width: 430px; /* Adjust the width as desired */
+    height: 150px; /* Adjust the height as desired */
+    opacity: 0.7; /* Adjust the opacity as desired */
+  }
+.text {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    text-align: center; /* Center the text horizontally */
+}
+.text h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    margin-top: 10px;
+    font-family: Impact;
+    font-size: 29px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    background-color: white;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+    text-align: center;
+}
+button:hover {
+    background-color: white;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-group input[type="text"] {
+    width: 110%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure the padding doesn't increase the width */
+    background-color: #f9f9f9; /* Background color */
+    cursor: pointer; /* Cursor style */
+}
+.btn {
+    width: 23%;
+    padding: 10px;
+    background-color: white;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+/* Hover effect for input fields */
+.form-group input[type="text"]:hover {
+    background-color: #e5e5e5;
+}
+
+
+
+/*homepage*/
+.nav-panel .panel {
+    border: 2px solid #ccc; /* Light grey border */
+    padding: 10px; /* Optional: adds some padding inside the panel */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+.nav-panel .nav-item {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333; /* Dark grey text color */
+}
+.nav-panel .nav-item:hover {
+    background-color: #f5f5dc; /* Cream color */
+}
+
+/*Services*/
+.panel {
+    background-color: rgba(224, 222, 222, 0.5);
+    padding: 5px;
+    margin-bottom: 5px;
+    overflow: hidden; /* Clear floats */
+    text-align: center;
+}
+.nav-item {
+    /* Initial styles for the navigation item */
+    background-color: transparent; /* Define initial background color if needed */
+    color: black; /* Define initial text color if needed */
+    padding: 10px; /* Example padding */
+    text-decoration: none; /* Remove underline if it's a link */
+    display: inline-block; /* Ensure the hover area is properly applied */
+}
+.nav-item:hover {
+    background-color: white; /* Change background color on hover */
+    color: #4CAF50; /* Change text color on hover */
+    border: 2px solid #4CAF50;
+}
+/*SERVICES*/
+.btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    background-color: white;
+    color: #000; /* Changed to #000 to make text visible on white background */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px; /* Add horizontal margin for spacing */
+}
+.btn:last-child {
+    margin-right: 15px; /* This can be removed if using margin 0 10px for all buttons */
+}
+/* print, repair, upgrade*/
+.btn {
+    width: 100px;
+    padding: 8px 16px; /* Reduced padding */
+    margin: 0 auto 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+}
+.btn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.btn:active {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+.home-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.home-btn button {
+    font-size: 16px; /* Further reduce font size */
+    padding: 6px 12px; /* Further reduce padding */
+    width: auto; 
+}
+
+/*GO BACK*/
+.home-btn1 {
+    position: absolute;
+    bottom: -250px; /* Move the home button up a little */
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/*home paragraph*/
+.intro {
+    text-align: center;
+}
+.indented {
+    padding: 30px;
+}
+.indented p {
+    margin: 0;
+    margin-bottom: 10px;
+    text-indent: 30px; /* Add indentation to the first line */
+    text-align: justify;
+}
+/* Style the image */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.social-media-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.social-media-link img {
+    width: 40px; /* Adjust the width as desired */
+    height: 40px; /* Adjust the height as desired */
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.phone-info {
+    display: flex;
+    align-items: center;
+}
+.phone-info img {
+    width: 40px; /* Adjust the width as desired */
+    height: 40px; /* Adjust the height as desired */
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.phone-number {
+    font-weight: lighter;
+}
+ /* home paragraph */
+ .terms {
+    text-align: justify;
+}
+.scrollable {
+    max-height: 400px; /* Adjust the maximum height as desired */
+    overflow-y: scroll;
+    padding: 20px; /* Add padding to create space between the content and container edges */
+}
+/* repair */
+.booking-details {
+    margin-bottom: 20px;
+}
+.booking-details h1 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.detail {
+    margin-bottom: 10px;
+}
+.label {
+    font-weight: bold;
+}
+.value {
+    margin-left: 10px;
+}
+.print-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.print-btn:hover {
+    background-color: #45a049;
+}
+.submit {
+    position: absolute;
+    bottom: -200px;
+    width: 100%; /* Ensures the button is centered horizontally */
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    padding-bottom: 10px; /* Optional: Adds some space below the button */
+}
+.sbn:hover {
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+/*PANELS*/
+.nav-panel .panel {
+    border: 2px solid #ccc; /* Light grey border */
+    padding: 10px; /* Optional: adds some padding inside the panel */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
+
+.nav-panel .nav-item {
+    display: inline-block;
+    padding: 10px 9px;
+    text-decoration: none;
+    color: #333; /* Dark grey text color */
+}
+
+.nav-panel .nav-item:hover {
+    background-color: #f5f5dc; /* Cream color */
+    color: #000; /* Change text color to black for contrast */
+}
+/*RESPONSIVE STYLE*/ 
+/*introduction*/
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .btn {
+        padding: 0.5em 1em;
+        width: 80%;
+    }
+}
+@media (max-width: 380px) {
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .btn {
+        padding: 0.5em 1em;
+        width: 100%;
+    }
+}
+/* Login */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    label {
+        margin: 0.5em 0 0.2em;
+    }
+    input[type="text"],
+    input[type="password"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em 1em;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    label {
+        margin: 0.5em 0 0.2em;
+    }
+    input[type="text"],
+    input[type="password"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* sign up */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    label {
+        margin: 0.5em 0 0.2em;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em 1em;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    label {
+        margin: 0.5em 0 0.2em;
+    }
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em;
+        width: 100%;
+        text-align: center;
+    }
+}
+/* google */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .form-group {
+        margin: 0.5em 0;
+    }
+    input[type="text"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em 1em;
+        width: 100%;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .form-group {
+        margin: 0.5em 0;
+    }
+    input[type="text"] {
+        padding: 0.5em;
+    }
+    .button-link {
+        padding: 0.5em;
+        width: 100%;
+    }
+}
+/*homepage*/
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .nav-item {
+        padding: 0.5em;
+        display: inline-block;
+        margin: 0.5em;
+        width: auto; /* Adjusted to 'auto' for inline behavior */
+    }
+}
+
+/*home*/
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .intro h1 {
+        font-size: 1em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+}
+/*services*/
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .intro h1 {
+        font-size: 1.2em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: auto;
+        margin: 0.5em;
+    }
+    .btn {
+        width: auto;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .intro h1 {
+        font-size: 1em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    .btn {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+}
+/*about*/
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: auto;
+        margin: 0.5em;
+    }
+    .contact-info .social-media-link,
+    .contact-info .phone-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info img {
+        margin-bottom: 0.5em;
+    }
+    .btn {
+        width: auto;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    .contact-info .social-media-link,
+    .contact-info .phone-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-info img {
+        margin-bottom: 0.5em;
+    }
+    .btn {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+}
+/* terms */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: auto;
+        margin: 0.5em;
+    }
+    .scrollable {
+        max-height: 200px;
+    }
+    .btn {
+        width: auto;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .panel {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-item {
+        padding: 0.5em;
+        width: 100%;
+        margin: 0.5em 0;
+    }
+    .scrollable {
+        max-height: 150px;
+    }
+    .btn {
+        width: 100%;
+        padding: 0.5em;
+        margin: 0.5em 0;
+    }
+}
+/* print */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .nav-item {
+        margin: 0 0.3em;
+    }
+    .panel {
+        flex-wrap: wrap;
+    }
+    .detail {
+        margin-bottom: 0.8em;
+    }
+    button {
+        padding: 0.4em 1em;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .nav-item {
+        margin: 0 0.2em;
+    }
+    .detail {
+        margin-bottom: 0.6em;
+    }
+    button {
+        padding: 0.3em 1em;
+    }
+}
+/* repair */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .nav-item {
+        margin: 0 0.3em;
+    }
+    .panel {
+        flex-wrap: wrap;
+    }
+    .detail {
+        margin-bottom: 0.8em;
+    }
+    button {
+        padding: 0.4em 1em;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .nav-item {
+        margin: 0 0.2em;
+    }
+    .detail {
+        margin-bottom: 0.6em;
+    }
+    button {
+        padding: 0.3em 1em;
+    }
+}
+/* upgrade */
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.5em;
+    }
+    .nav-item {
+        margin: 0 0.3em;
+    }
+    .panel {
+        flex-wrap: wrap;
+    }
+    .detail {
+        margin-bottom: 0.8em;
+    }
+    button {
+        padding: 0.4em 1em;
+    }
+}
+@media (max-width: 380px) {
+    .container {
+        padding: 1em;
+    }
+    .text h1 {
+        font-size: 1.2em;
+    }
+    .nav-item {
+        margin: 0 0.2em;
+    }
+    .detail {
+        margin-bottom: 0.6em;
+    }
+    button {
+        padding: 0.3em 1em;
+    }
+}
